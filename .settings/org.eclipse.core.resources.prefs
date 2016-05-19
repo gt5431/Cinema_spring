@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//sql/film.sql=gbk
+encoding//src/main/java/com/yc/cinema/action/TypeAction.java=gbk
+encoding//src/test/java/com/yc/cinema/serviceImpl/FilmServiceImplTest.java=gbk
+encoding/<project>=UTF-8

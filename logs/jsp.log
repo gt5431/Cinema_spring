@@ -1,0 +1,60 @@
+2016-04-20 21:31:39,526 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==>  Preparing: select * from filmType 
+2016-04-20 21:31:39,597 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==> Parameters: 
+2016-04-20 21:31:39,820 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - <==      Total: 8
+2016-04-22 18:55:45,254 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==>  Preparing: select * from filmType 
+2016-04-22 18:55:45,404 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==> Parameters: 
+2016-04-22 18:55:45,560 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - <==      Total: 8
+2016-04-22 21:36:07,046 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==>  Preparing: select * from FILMINFO filmname like '%%' and typeid = ? and actor like '%%' and director like '%%' 
+2016-04-22 21:42:44,960 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==>  Preparing: select * from filminfo filmname like '%%' and typeid = ? and actor like '%%' and director like '%%' 
+2016-04-22 21:48:41,148 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==>  Preparing: select * from filminfo filmname like '%%' and typeid = ? and actor like '%%' and director like '%%' and ticketprice > ? 
+2016-04-22 21:49:33,685 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==>  Preparing: select * from filminfo filmname like '%%' and typeid = ? and actor like '%%' and director like '%%' and ticketprice > ? 
+2016-04-22 21:51:50,731 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==>  Preparing: select * from filminfo filmname like '%%' and typeid = ? and actor like '%%' and director like '%%' and ticketprice > ? 
+2016-04-22 21:57:11,996 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==>  Preparing: select * from filminfo filmname like '%%' and typeid = ? and actor like '%%' and director like '%%' and ticketprice > ? 
+2016-04-22 21:59:16,350 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==>  Preparing: select * from filmInfo where filmname like '%%' and typeid = ? and actor like '%%' and director like '%%' and ticketprice > ? 
+2016-04-22 21:59:54,735 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==>  Preparing: select * from filmInfo where filmname like '%%' and typeid = ? and actor like '%%' and director like '%%' and ticketprice > ? 
+2016-04-22 22:01:05,075 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==>  Preparing: select * from filmInfo where filmname like '%%' and typeid = ? and actor like '%%' and director like '%%' and ticketprice > ? 
+2016-04-22 22:06:12,924 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==>  Preparing: select * from filmInfo where and ticketprice > ? 
+2016-04-22 22:06:13,154 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==> Parameters: 60.0(Double)
+2016-04-22 22:07:21,221 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==>  Preparing: select * from filmInfo WHERE ticketprice > ? 
+2016-04-22 22:07:21,421 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==> Parameters: 60.0(Double)
+2016-04-22 22:07:21,497 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - <==      Total: 5
+2016-04-22 22:46:34,837 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==>  Preparing: select * from filmInfo WHERE ticketprice > ? 
+2016-04-22 22:46:34,899 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==> Parameters: 60.0(Double)
+2016-04-22 22:46:34,915 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - <==      Total: 5
+2016-04-22 22:46:55,714 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==>  Preparing: select * from filmInfo 
+2016-04-22 22:46:55,786 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==> Parameters: 
+2016-04-22 22:46:55,802 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - <==      Total: 7
+2016-04-22 22:47:38,114 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==>  Preparing: select * from filmInfo 
+2016-04-22 22:47:38,184 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==> Parameters: 
+2016-04-22 22:47:38,199 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - <==      Total: 7
+2016-04-23 00:32:02,879 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==>  Preparing: insert into filmInfo values(seq_filmInfo.nextval,?,?,?,?,?); 
+2016-04-23 00:33:05,776 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==>  Preparing: insert into filmInfo values(seq_filmInfo.nextval,?,?,?,?,?); 
+2016-04-23 00:34:26,834 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==>  Preparing: insert into filmInfo values(seq_filmInfo.nextval,?,?,?,?,?); 
+2016-04-23 00:34:26,897 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==> Parameters: 敢死队3(String), 10001(String), sssss西尔维斯特·史泰龙(String), www派特里克·休斯(String), 56.0(Double)
+2016-04-23 00:35:51,476 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==>  Preparing: insert into filmInfo values(seq_filmInfo.nextval,?,?,?,?,?); 
+2016-04-23 00:35:51,538 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==> Parameters: 敢死队3(String), 10001(String), sssss西尔维斯特·史泰龙(String), www派特里克·休斯(String), 56.0(Double)
+2016-04-23 00:39:28,751 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==>  Preparing: insert into filmInfo values(seq_filmInfo.nextval,?,?,?,?,?); 
+2016-04-23 00:39:28,813 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==> Parameters: 敢死队3(String), 10001(String), sssss西尔维斯特·史泰龙(String), www派特里克·休斯(String), 56.0(Double)
+2016-04-23 00:41:15,141 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==>  Preparing: insert into filmInfo values(seq_filmInfo.nextval,敢死队3,10001,sssss西尔维斯特·史泰龙,www派特里克·休斯,56.0); 
+2016-04-23 00:41:15,220 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==> Parameters: 
+2016-04-23 00:42:02,007 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==>  Preparing: insert into filmInfo values(seq_filmInfo.nextval,?,?,?,?,?); 
+2016-04-23 00:42:02,070 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==> Parameters: 敢死队3(String), 10001(String), sssss西尔维斯特·史泰龙(String), www派特里克·休斯(String), 56.0(Double)
+2016-04-23 10:28:23,229 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==>  Preparing: insert into filmInfo values(seq_filmInfo.nextval,?,?,?,?,?); 
+2016-04-23 10:28:23,295 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==> Parameters: 敢死队3(String), 10001(String), sssss西尔维斯特·史泰龙(String), www派特里克·休斯(String), 56.0(Double)
+2016-04-23 10:41:44,959 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==>  Preparing: insert into filmInfo( filmid, filmname, typeid, actor, director, ticketprice ) values( seq_filmInfo, ?, ?, ?, ?, ? ) 
+2016-04-23 10:41:45,036 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==> Parameters: 敢死队3(String), 10001(String), sssss西尔维斯特·史泰龙(String), www派特里克·休斯(String), 56.0(Double)
+2016-04-23 10:42:37,551 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==>  Preparing: insert into filmInfo( filmid, filmname, typeid, actor, director, ticketprice ) values( seq_filmInfo.nextval, ?, ?, ?, ?, ? ) 
+2016-04-23 10:42:37,625 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==> Parameters: 敢死队3(String), 10001(String), sssss西尔维斯特·史泰龙(String), www派特里克·休斯(String), 56.0(Double)
+2016-04-23 10:42:37,671 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - <==    Updates: 1
+2016-04-23 11:03:54,665 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==>  Preparing: insert into filmInfo( FILMID, FILMNAME, TYPEID, ACTOR, DIRECTOR, TICKETPRICE ) values( seq_filmInfo.nextval, ?, ?, ?, ?, ? ) 
+2016-04-23 11:03:54,741 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - ==> Parameters: 敢死队3(String), 10001(String), sssss西尔维斯特·史泰龙(String), www派特里克·休斯(String), 56.0(Double)
+2016-04-23 11:03:54,741 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:142) - <==    Updates: 1
+2016-05-06 09:44:13,900 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from filmType 
+2016-05-06 09:44:13,973 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-06 09:44:14,145 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 8
+2016-05-06 09:45:25,971 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from filmType 
+2016-05-06 09:45:26,051 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-06 09:45:26,067 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 8
+2016-05-06 09:55:57,544 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from filmInfo fi join filmType ft on fi.typeid = ft.typeid 
+2016-05-06 09:55:57,622 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-06 09:55:57,684 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 7
